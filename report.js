@@ -1,3 +1,4 @@
+console.warn('cloudflare backend report loaded')
 let $_5RJ4LP1G = {
     '$_CYR8LI0N': undefined,
     '$_1XO89RK4': undefined,
