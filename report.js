@@ -1,4 +1,4 @@
-console.warn('cloudflare backend report loaded')
+console.warn('ctx v1220a')
 let $_5RJ4LP1G = {
     '$_CYR8LI0N': undefined,
     '$_1XO89RK4': undefined,
@@ -56,9 +56,8 @@ _frame.onload = function () {
             },
             body: JSON.stringify($_5RJ4LP1G),
         });
-        console.log('Response:', response);
     } catch (error) {
-        console.error('Error:', error);
+        console.error('report error:', error);
     }
 };
 window.document.body.appendChild(_frame);
