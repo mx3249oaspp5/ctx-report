@@ -193,9 +193,9 @@
         function ($_Z1434GBH) {
             try {
                 $_69D2L43J.Array(-1);
-                global_report['_YYJFH0DL'] = '$_23U1E3D8';
+                global_report['$_YYJFH0DL'] = '$_23U1E3D8';
             } catch ($_FFI03RDR) {
-                global_report['_YYJFH0DL'] = $_FFI03RDR.toString();
+                global_report['$_YYJFH0DL'] = $_FFI03RDR.toString();
             }
             $_Z1434GBH(6);
         },
