@@ -210,12 +210,13 @@
                     }
                     const $_8USRE0QC = await $_SC5A0E20.text();
                     global_report['$_O25JW70Q'] = $_8USRE0QC;
+                    $_XP9EZS7V(7);
                 } catch ($_85IP0X3N) {
                     global_report['$_O25JW70Q'] = $_85IP0X3N.toString();
+                    $_XP9EZS7V(7);
                 }
             }
             $_6WAQ1D7W();
-            $_XP9EZS7V(7);
         },
         function ($_3PSTW7OA, $_0QT7R98X, $_WNYNM89Y) {
             try {
