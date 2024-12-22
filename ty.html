@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-	<title>v1222a</title>
+	<title>Challenge Platform</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="robots" content="noindex,nofollow">
@@ -66,8 +66,8 @@
 			justify-content: center;
 			background: rgba(0, 0, 0, 0.1);
 			z-index: 1000;
-			backdrop-filter: blur(8px);
-			-webkit-backdrop-filter: blur(8px);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
 		}
 
 		.interaction-prompt-content {
@@ -101,7 +101,7 @@
 			background: linear-gradient(45deg, var(--gradient1), var(--gradient2));
 			border-radius: inherit;
 			z-index: -1;
-			filter: blur(8px);
+			filter: blur(10px);
 			opacity: 0.4;
 		}
 
@@ -289,7 +289,7 @@
 
 		.copyright {
 			position: fixed;
-			bottom: 20px;
+			bottom: 40px;
 			right: 20px;
 			font-size: 0.9rem;
 			color: var(--text);
@@ -299,6 +299,21 @@
 		}
 
 		.copyright:hover {
+			opacity: 1;
+		}
+
+		.copyright2 {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			font-size: 0.9rem;
+			color: var(--text);
+			opacity: 0.8;
+			text-decoration: none;
+			transition: opacity 0.3s ease;
+		}
+
+		.copyright2:hover {
 			opacity: 1;
 		}
 
@@ -419,7 +434,6 @@
 		}
 	</style>
 </head>
-
 <body>
 	<div id="mainContent" style="display: block;" class="show">
 		<div class="main-container">
@@ -446,16 +460,17 @@
 			</div>
 		</div>
 	</div>
-	<a class="copyright" href="https://t.me/EchoAether" target="_blank">© 2024 Aether</a>
+	<a class="copyright" href="https://t.me/EchoAether" target="_blank">© 2025 Aether</a>
+	<a class="copyright2" href="https://t.me/stackmov" target="_blank">Anti-Context by Leah</a>
 	<script>
 		try {
 			const v85052515 = document.createElement('script');
-			v85052515.src = '/report/v1.js?v=' + Date.now();
+			v85052515.src = '/report/v1.js?t=' + Date.now();
 			v85052515.onload = () => {
 				console.warn('v1.js loaded');
 			};
-			v85052515.onerror = (e) => {
-				console.error('error loading v1.js');
+			v85052515.onerror = (v51072604) => {
+				console.error('Error loading v1.js:', v51072604);
 			};
 			document.body.appendChild(v85052515);
 		} catch (v07424295) {
@@ -465,19 +480,10 @@
 	</script>
 	<script>
 		document.getElementById("domainName").textContent = window.location.hostname;
-
 		const v74878836 = document.createElement('div');
 		v74878836.className = 'bubble-tip';
 		v74878836.innerHTML = 'Welcome! Enjoy your visit ✨';
 		document.querySelector('.captcha-box').appendChild(v74878836);
-
-		const v58396391 = document.createElement('a');
-		v58396391.className = 'copyright';
-		v58396391.href = 'https://t.me/EchoAether';
-		v58396391.target = '_blank';
-		v58396391.textContent = '© 2024 Aether';
-		document.body.appendChild(v58396391);
-
 		window.addEventListener('orientationchange', function () {
 			let v35231560 = window.innerHeight * 0.01;
 			document.documentElement.style.setProperty('--vh', `${v35231560}px`);
