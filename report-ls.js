@@ -88,7 +88,7 @@
                 if ($_Z3CERPMT() === $_WBDOTP9I) {
                     global_report['$_OFRMENJO'] = true;
                 } else {
-                    global_report['$_OFRMENJO'] = false;
+                    global_report['$_OFRMENJO'] = $_Z3CERPMT();
                 }
             } catch ($_3UOIB8ED) {
                 global_report['$_OFRMENJO'] = $_3UOIB8ED.toString();
