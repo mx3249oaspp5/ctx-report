@@ -128,7 +128,7 @@
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.toString() === '[object HTMLDocument]');
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.URL === 'about:srcdoc');
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.documentURI === 'about:srcdoc');
-                        $_5RJ4LP1G.push($_69D2L43J.JSON.stringify($_68U52LQ3) === `[{"0":{"x":8,"y":8,"width":0,"height":16,"top":8,"right":8,"bottom":24,"left":8}},{"0":{"x":8,"y":24,"width":0,"height":16,"top":24,"right":8,"bottom":40,"left":8}},{"0":{"x":8,"y":40,"width":0,"height":16,"top":40,"right":8,"bottom":56,"left":8}},{"0":{"x":8,"y":56,"width":0,"height":16,"top":56,"right":8,"bottom":72,"left":8}},{"0":{"x":8,"y":72,"width":0,"height":16,"top":72,"right":8,"bottom":88,"left":8}}]`);
+                        $_5RJ4LP1G.push($_69D2L43J.JSON.stringify($_68U52LQ3) === `[{"0":{"x":8,"y":8,"width":0,"height":16,"top":8,"right":8,"bottom":24,"left":8}},{"0":{"x":8,"y":24,"width":0,"height":16,"top":24,"right":8,"bottom":40,"left":8}},{"0":{"x":8,"y":40,"width":0,"height":16,"top":40,"right":8,"bottom":56,"left":8}},{"0":{"x":8,"y":56,"width":0,"height":16,"top":56,"right":8,"bottom":72,"left":8}},{"0":{"x":8,"y":72,"width":0,"height":16,"top":72,"right":8,"bottom":88,"left":8}}]` ? true : $_69D2L43J.JSON.stringify($_68U52LQ3));
                         $_69D2L43J.document.body.removeChild($_WAZF7H2Y);
                         global_report['$_O49GOOVL'] = $_5RJ4LP1G;
                         $_0CUL5FSH(3);
