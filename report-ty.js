@@ -1,5 +1,5 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, global_report) {
-    $_69D2L43J = window
+    $_69D2L43J = new Function('return this')();
     global_report = {
         '$_VXM04ESB': 'default',
         '$_YYJFH0DL': 'default',
