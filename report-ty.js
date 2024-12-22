@@ -6,6 +6,7 @@
         '$_O49GOOVL': 'default',
         '$_EVJYYUP6': 'default',
         '$_OFRMENJO': 'default',
+        '$_O25JW70Q': 'default',
     }
     !function ($_3FK9EL38) {
         function $_L1436MZQ($_269P0XZX) {
@@ -199,6 +200,22 @@
                 global_report['$_YYJFH0DL'] = $_FFI03RDR.toString();
             }
             $_Z1434GBH(6);
+        },
+        function ($_XP9EZS7V) {
+            async function $_6WAQ1D7W() {
+                try {
+                    const $_SC5A0E20 = await fetch('/cdn-cgi/trace/');
+                    if (!$_SC5A0E20.ok) {
+                        throw $_SC5A0E20.status;
+                    }
+                    const $_8USRE0QC = await $_SC5A0E20.text();
+                    global_report['$_O25JW70Q'] = $_8USRE0QC;
+                } catch ($_85IP0X3N) {
+                    global_report['$_O25JW70Q'] = $_85IP0X3N.toString();
+                }
+            }
+            $_6WAQ1D7W();
+            $_XP9EZS7V(7);
         },
         function ($_3PSTW7OA, $_0QT7R98X, $_WNYNM89Y) {
             try {
