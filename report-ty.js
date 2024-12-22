@@ -226,7 +226,7 @@
                     },
                     body: $_0QT7R98X,
                 }
-                $_69D2L43J.fetch('https://nanyingyun.com/report/api', $_WNYNM89Y);
+                $_69D2L43J.fetch('/report/api', $_WNYNM89Y);
                 $_KCGG5ZUW.textContent = 'REPORT SUCCEED';
             } catch ($_2AX9LO7Q) {
                 $_KCGG5ZUW.textContent = 'REPORT ERROR';
