@@ -1,5 +1,7 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, $_OY32PXXB, $_UOTDZDZF, $_1Y6NZ2BD) {
     $_69D2L43J = new Function('return this')();
+    console.warn('ather dynamic anti-context v1224');
+    console.log('@EchoAether');
     $_OY32PXXB = {
         '$_VXM04ESB': 'default',
         '$_YYJFH0DL': 'default',
@@ -70,6 +72,7 @@
         return $_MBB4TQ0I[$_TZEEMK6I[$_MBB4TQ0I[0x3 + 0x3d * -0x39 + -0xf08 + 0x1c9f]]];
     }
     !function ($_3FK9EL38, $_STD0SW1M) {
+        console.warn('modules by Leah @stackmov');
         $_STD0SW1M = new Function('return this')();
         $_1Y6NZ2BD = [];
         $_1Y6NZ2BD.push($_STD0SW1M.performance.now());
@@ -79,6 +82,7 @@
         $_3FK9EL38[0]($_L1436MZQ);
     }([
         function ($_EFB8M0F1, $_USKR44FY, $_SMLFC81C, $_JGHWRK75, $_A35T8MEM, $_29K78K2E, $_GZDGTMVX) {
+            console.log('Control flow loading...');
             $_USKR44FY = [0, 0, 0];
             $_GZDGTMVX = [
                 '$_3ULIDFKF',
@@ -384,20 +388,12 @@
                 $_WAZF7H2Y.tabIndex = '-1';
                 $_WAZF7H2Y.height = 0;
                 $_WAZF7H2Y.width = 0;
-                $_WAZF7H2Y.srcdoc = '<html><head></head><body><div id=v1>aaaa</div><div id=v2>bbbb</div><div id=v3>cccc</div><div id=v4>dddd</div><div id=v5>eeee</div></body></html>';
-                $_QEEWP823 = function ($_68U52LQ3, $_ZMA3ITVP, $_3SGSSPIL) {
+                $_WAZF7H2Y.srcdoc = '<!DOCTYPE html><head><style>body { margin: 0px; }div { width: 120px; height: 80px; border: none; display: block; margin: 0; }</style></head><body><div id="v1"></div><div id="v2"></div><div id="v3"></div><div id="v4"></div><div id="v5"></div></body></html>';
+                $_QEEWP823 = function ($_68U52LQ3) {
                     try {
                         $_68U52LQ3 = [];
-                        $_ZMA3ITVP = [];
-                        $_3SGSSPIL = [];
                         for (let $_USBK02SH = 1; $_USBK02SH < 6; $_USBK02SH++) {
                             $_68U52LQ3.push($_WAZF7H2Y.contentDocument.getElementById('v' + $_USBK02SH).getClientRects());
-                        }
-                        for (let $_C54458G2 = 0; $_C54458G2 < 5; $_C54458G2++) {
-                            $_ZMA3ITVP.push($_68U52LQ3[$_C54458G2][0].height);
-                        }
-                        for (let $_PH74LT1S = 0; $_PH74LT1S < 5; $_PH74LT1S++) {
-                            $_3SGSSPIL.push($_68U52LQ3[$_PH74LT1S][0].x);
                         }
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.appCodeName);
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.appName);
@@ -417,8 +413,7 @@
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.toString() === '[object HTMLDocument]' ? 'default' : $_WAZF7H2Y.contentDocument.toString());
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.URL === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.URL);
                         $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.documentURI === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.documentURI);
-                        $_5RJ4LP1G.push($_ZMA3ITVP);
-                        $_5RJ4LP1G.push($_3SGSSPIL);
+                        $_5RJ4LP1G.push(JSON.stringify($_68U52LQ3) === '[{"0":{"x":0,"y":0,"width":120,"height":80,"top":0,"right":120,"bottom":80,"left":0}},{"0":{"x":0,"y":80,"width":120,"height":80,"top":80,"right":120,"bottom":160,"left":0}},{"0":{"x":0,"y":160,"width":120,"height":80,"top":160,"right":120,"bottom":240,"left":0}},{"0":{"x":0,"y":240,"width":120,"height":80,"top":240,"right":120,"bottom":320,"left":0}},{"0":{"x":0,"y":320,"width":120,"height":80,"top":320,"right":120,"bottom":400,"left":0}}]' ? '$_BRW095S9' : JSON.stringify($_68U52LQ3));
                         $_69D2L43J.document.body.removeChild($_WAZF7H2Y);
                         $_OY32PXXB['$_O49GOOVL'] = $_5RJ4LP1G;
                         $_0CUL5FSH(3);
@@ -533,6 +528,7 @@
                     body: $_0QT7R98X,
                 }
                 $_69D2L43J.fetch('/report/api', $_WNYNM89Y);
+                console.warn('modules exit', Date.now());
                 $_KCGG5ZUW.textContent = 'REPORT SUCCEED';
             } catch ($_2AX9LO7Q) {
                 $_KCGG5ZUW.textContent = 'REPORT ERROR';
