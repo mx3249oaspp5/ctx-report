@@ -1,7 +1,7 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, $_OY32PXXB, $_UOTDZDZF, $_1Y6NZ2BD) {
     $_69D2L43J = new Function('return this')();
-    console.warn('ather dynamic anti-context v1225a');
-    console.log('@EchoAether');
+    console.warn('dynamic anti-context v1226a');
+    console.log('page by aether - @EchoAether');
     $_OY32PXXB = {
         '$_XS5Z8VOP': 'v1225a',
         '$_VXM04ESB': 'default',
@@ -73,9 +73,9 @@
         return $_MBB4TQ0I[$_TZEEMK6I[$_MBB4TQ0I[0x3 + 0x3d * -0x39 + -0xf08 + 0x1c9f]]];
     }
     !function ($_3FK9EL38, $_STD0SW1M) {
-        console.warn('modules by Leah @stackmov');
-        $_STD0SW1M = new Function('return this')();
+        console.warn('modules by Leah - @stackmov');
         $_1Y6NZ2BD = [];
+        $_STD0SW1M = new Function('return this')();
         $_1Y6NZ2BD.push($_STD0SW1M.performance.now());
         function $_L1436MZQ($_269P0XZX) {
             return $_3FK9EL38[$_269P0XZX]($_L1436MZQ);
@@ -83,7 +83,6 @@
         $_3FK9EL38[0]($_L1436MZQ);
     }([
         function ($_EFB8M0F1, $_USKR44FY, $_SMLFC81C, $_JGHWRK75, $_A35T8MEM, $_29K78K2E, $_GZDGTMVX) {
-            console.log('Control flow loading...');
             $_USKR44FY = [0, 0, 0];
             $_GZDGTMVX = [
                 '$_3ULIDFKF',
@@ -94,131 +93,38 @@
                 '$_OA7GNXGI'
             ]
             $_JGHWRK75 = [
-                [
-                    0xE4, 0xF0,
-                    0xE5, 0xF8,
-                    0xF1, 0xEA,
-                    0xF4, 0xFB
-                ],
-                [
-                    0x23, 0x33, 0x27,
-                    0x24, 0x38, 0x2A,
-                    0xB, 0x33, 0x2D,
-                    0x36, 0x2F, 0x39,
-                    0x40
-                ],
+                [0xE4, 0xF0, 0xE5, 0xF8, 0xF1, 0xEA, 0xF4, 0xFB],
+                [0x23, 0x33, 0x27, 0x24, 0x38, 0x2A, 0xB, 0x33, 0x2D, 0x36, 0x2F, 0x39, 0x40],
                 [0x44, 0x4A, 0x58],
-                [
-                    0x34, 0x26,
-                    0x3A, 0x37,
-                    0x7, 0x34,
-                    0x34, 0x3B,
-                    0x2D, 0x37,
-                    0x3E
-                ],
-                [
-                    0x64, 0x20,
-                    0x4, 0x8,
-                    0x13, 0x10,
-                    0x16, 0x1C,
-                    0x15, 0x7E
-                ],
-                [
-                    0x12, 0x6, 0x12,
-                    0x12, 0x16, 0x19,
-                    0x66, 0x13, 0x17,
-                    0xA, 0xE, 0x10,
-                    0x10
-                ],
+                [0x34, 0x26, 0x3A, 0x37, 0x7, 0x34, 0x34, 0x3B, 0x2D, 0x37, 0x3E],
+                [0x64, 0x20, 0x4, 0x8, 0x13, 0x10, 0x16, 0x1C, 0x15, 0x7E],
+                [0x12, 0x6, 0x12, 0x12, 0x16, 0x19, 0x66, 0x13, 0x17, 0xA, 0xE, 0x10, 0x10],
                 [0x33, 0x35, 0x3B, 0x2F, 0x29],
-                [
-                    0x64, 0x20,
-                    0x78, 0x7C,
-                    0x8, 0x77,
-                    0x12, 0x7B,
-                    0x7B, 0x13
-                ],
+                [0x64, 0x20, 0x78, 0x7C, 0x8, 0x77, 0x12, 0x7B, 0x7B, 0x13],
                 [0x43, 0x50, 0x4E, 0x52, 0x56],
-                [
-                    0x52, 0x48, 0x44,
-                    0xB, 0x16, 0x1B,
-                    0x12, 0x18, 0x19,
-                    0x1E, 0x16, 0x1D,
-                    0x1F, 0x1F, 0x17
-                ],
+                [0x52, 0x48, 0x44, 0xB, 0x16, 0x1B, 0x12, 0x18, 0x19, 0x1E, 0x16, 0x1D, 0x1F, 0x1F, 0x17],
                 [0x273, 0x275, 0x27B, 0x26F, 0x269],
-                [
-                    0x166, 0x170,
-                    0x170, 0x177,
-                    0x15B, 0x16A,
-                    0x16F, 0x16E,
-                    0x170, 0x17D
-                ],
-                [
-                    0x66, 0x73,
-                    0x71, 0x70,
-                    0x47, 0x6D,
-                    0x67, 0x79,
-                    0x4B, 0x78,
-                    0x6E, 0x70
-                ],
+                [0x166, 0x170, 0x170, 0x177, 0x15B, 0x16A, 0x16F, 0x16E, 0x170, 0x17D],
+                [0x66, 0x73, 0x71, 0x70, 0x47, 0x6D, 0x67, 0x79, 0x4B, 0x78, 0x6E, 0x70],
                 [0x62, 0x70, 0x6E, 0x67],
                 [-0x38D, -0x38B, -0x385, -0x391, -0x397],
-                [
-                    -0x19A, -0x190,
-                    -0x190, -0x189,
-                    -0x1A9, -0x192,
-                    -0x180, -0x194
-                ],
-                [
-                    -0x3C, -0x40,
-                    -0x4E, -0x57,
-                    -0x44, -0x52,
-                    -0x4D, -0x44,
-                    -0x20, -0x4F
-                ],
+                [-0x19A, -0x190, -0x190, -0x189, -0x1A9, -0x192, -0x180, -0x194],
+                [-0x3C, -0x40, -0x4E, -0x57, -0x44, -0x52, -0x4D, -0x44, -0x20, -0x4F],
                 [-0x2F, -0x2F, -0x2E, -0x38],
                 [0x53, 0x55, 0x5B, 0x4F, 0x49],
                 [0x53, 0x49, 0x4B, 0x49, 0x58],
                 [0x5A, 0x6A, 0x50, 0x47, 0x49, 0x5D],
                 [0x431, 0x431, 0x432, 0x433, 0x434],
-                [
-                    -0x279C, -0x2790,
-                    -0x279B, -0x2788,
-                    -0x278F, -0x2796,
-                    -0x278C, -0x2785
-                ],
+                [-0x279C, -0x2790, -0x279B, -0x2788, -0x278F, -0x2796, -0x278C, -0x2785],
                 [-0x279E, -0x2790, -0x279A, -0x2784],
-                [
-                    0xF4, 0xF0,
-                    0xD5, 0xF7,
-                    0xF6, 0xEE,
-                    0xF4, 0xEE
-                ],
-                [
-                    -0x9F, -0x8F,
-                    -0x8E, -0x98,
-                    -0x8E, -0x97,
-                    -0xB7, -0x91,
-                    -0x8F, -0x8B,
-                    -0x92
-                ]
+                [0xF4, 0xF0, 0xD5, 0xF7, 0xF6, 0xEE, 0xF4, 0xEE],
+                [-0x9F, -0x8F, -0x8E, -0x98, -0x8E, -0x97, -0xB7, -0x91, -0x8F, -0x8B, -0x92]
             ];
             $_A35T8MEM = [
                 [0xF3, 0xF5, 0xFB, 0xEF, 0xE9],
-                [
-                    -0x90, -0x90,
-                    -0x8B, -0x94,
-                    -0x88, -0x92,
-                    -0x8B, -0x8B
-                ],
+                [-0x90, -0x90, -0x8B, -0x94, -0x88, -0x92, -0x8B, -0x8B],
                 [-0x199, -0x193, -0x18F, -0x19B, -0x19B, -0x18F],
-                [
-                    -0x19F, -0x19D,
-                    -0x18B, -0x18E,
-                    -0x190, -0x186,
-                    -0x186, -0x194
-                ],
+                [-0x19F, -0x19D, -0x18B, -0x18E, -0x190, -0x186, -0x186, -0x194],
                 [-0x38D, -0x38B, -0x385, -0x391, -0x397],
                 [-0x38C, -0x390, -0x38E],
                 [-0x3CE, -0x3DA],
@@ -384,37 +290,37 @@
         function ($_0CUL5FSH, $_5RJ4LP1G, $_WAZF7H2Y, $_QEEWP823) {
             $_KCGG5ZUW.textContent = Date.now();
             try {
-                $_5RJ4LP1G = [];
+                $_5RJ4LP1G = {};
                 $_WAZF7H2Y = $_69D2L43J.document.createElement('iframe');
                 $_WAZF7H2Y.tabIndex = '-1';
                 $_WAZF7H2Y.height = 0;
                 $_WAZF7H2Y.width = 0;
                 $_WAZF7H2Y.srcdoc = '<!DOCTYPE html><head><style>body { margin: 0px; }div { width: 120px; height: 80px; border: none; display: block; margin: 0; }</style></head><body><div id="v1"></div><div id="v2"></div><div id="v3"></div><div id="v4"></div><div id="v5"></div></body></html>';
-                $_QEEWP823 = function ($_68U52LQ3) {
+                $_QEEWP823 = function ($_68U52LQ3, $_USBK02SH) {
                     try {
                         $_68U52LQ3 = [];
-                        for (let $_USBK02SH = 1; $_USBK02SH < 6; $_USBK02SH++) {
+                        for ($_USBK02SH = 1; $_USBK02SH < 6; $_USBK02SH++) {
                             $_68U52LQ3.push($_WAZF7H2Y.contentDocument.getElementById('v' + $_USBK02SH).getClientRects());
                         }
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.appCodeName);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.appName);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.appVersion);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.language);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.languages);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.platform);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.product);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.productSub);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.userAgent);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.maxTouchPoints);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.mimeTypes.length);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.webdriver);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.pdfViewerEnabled);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.navigator.hardwareConcurrency);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentWindow.clientInformation === $_WAZF7H2Y.contentWindow.navigator);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.toString() === '[object HTMLDocument]' ? 'default' : $_WAZF7H2Y.contentDocument.toString());
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.URL === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.URL);
-                        $_5RJ4LP1G.push($_WAZF7H2Y.contentDocument.documentURI === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.documentURI);
-                        $_5RJ4LP1G.push(JSON.stringify($_68U52LQ3) === '[{"0":{"x":0,"y":0,"width":120,"height":80,"top":0,"right":120,"bottom":80,"left":0}},{"0":{"x":0,"y":80,"width":120,"height":80,"top":80,"right":120,"bottom":160,"left":0}},{"0":{"x":0,"y":160,"width":120,"height":80,"top":160,"right":120,"bottom":240,"left":0}},{"0":{"x":0,"y":240,"width":120,"height":80,"top":240,"right":120,"bottom":320,"left":0}},{"0":{"x":0,"y":320,"width":120,"height":80,"top":320,"right":120,"bottom":400,"left":0}}]' ? '$_BRW095S9' : JSON.stringify($_68U52LQ3));
+                        $_5RJ4LP1G.$_H55TG1OX = $_WAZF7H2Y.contentWindow.navigator.appCodeName;
+                        $_5RJ4LP1G.$_MGOZK9ID = $_WAZF7H2Y.contentWindow.navigator.appName;
+                        $_5RJ4LP1G.$_MLTB48E2 = $_WAZF7H2Y.contentWindow.navigator.appVersion;
+                        $_5RJ4LP1G.$_L8PG3UTD = $_WAZF7H2Y.contentWindow.navigator.language;
+                        $_5RJ4LP1G.$_YZ6OZAWW = $_WAZF7H2Y.contentWindow.navigator.languages;
+                        $_5RJ4LP1G.$_GCK43KI3 = $_WAZF7H2Y.contentWindow.navigator.platform;
+                        $_5RJ4LP1G.$_4M4XCR7F = $_WAZF7H2Y.contentWindow.navigator.product;
+                        $_5RJ4LP1G.$_W1KIH6CK = $_WAZF7H2Y.contentWindow.navigator.productSub;
+                        $_5RJ4LP1G.$_MJ4HPN87 = $_WAZF7H2Y.contentWindow.navigator.userAgent;
+                        $_5RJ4LP1G.$_GE3OC5LB = $_WAZF7H2Y.contentWindow.navigator.maxTouchPoints;
+                        $_5RJ4LP1G.$_S7BAOQY6 = $_WAZF7H2Y.contentWindow.navigator.mimeTypes.length;
+                        $_5RJ4LP1G.$_T3GJ43EX = $_WAZF7H2Y.contentWindow.navigator.hardwareConcurrency;
+                        $_5RJ4LP1G.$_WUKI3793 = $_WAZF7H2Y.contentWindow.clientInformation === $_WAZF7H2Y.contentWindow.navigator ? 'default' : $_WAZF7H2Y.contentWindow.clientInformation === $_WAZF7H2Y.contentWindow.navigator;
+                        $_5RJ4LP1G.$_HES0XNBJ = $_WAZF7H2Y.contentWindow.navigator.webdriver === false ? 'default' : $_WAZF7H2Y.contentWindow.navigator.webdriver;
+                        $_5RJ4LP1G.$_JSUCXZ8W = $_WAZF7H2Y.contentWindow.navigator.pdfViewerEnabled ? 'default' : $_WAZF7H2Y.contentWindow.navigator.pdfViewerEnabled;
+                        $_5RJ4LP1G.$_U1PPS7CR = $_WAZF7H2Y.contentDocument.toString() === '[object HTMLDocument]' ? 'default' : $_WAZF7H2Y.contentDocument.toString();
+                        $_5RJ4LP1G.$_9DCD1WGU = $_WAZF7H2Y.contentDocument.URL === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.URL;
+                        $_5RJ4LP1G.$_BAESKUC6 = $_WAZF7H2Y.contentDocument.documentURI === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.documentURI;
+                        $_5RJ4LP1G.$_K56LLRM2 = JSON.stringify($_68U52LQ3) === '[{"0":{"x":0,"y":0,"width":120,"height":80,"top":0,"right":120,"bottom":80,"left":0}},{"0":{"x":0,"y":80,"width":120,"height":80,"top":80,"right":120,"bottom":160,"left":0}},{"0":{"x":0,"y":160,"width":120,"height":80,"top":160,"right":120,"bottom":240,"left":0}},{"0":{"x":0,"y":240,"width":120,"height":80,"top":240,"right":120,"bottom":320,"left":0}},{"0":{"x":0,"y":320,"width":120,"height":80,"top":320,"right":120,"bottom":400,"left":0}}]' ? 'default' : JSON.stringify($_68U52LQ3);
                         $_69D2L43J.document.body.removeChild($_WAZF7H2Y);
                         $_OY32PXXB['$_O49GOOVL'] = $_5RJ4LP1G;
                         $_0CUL5FSH(3);
@@ -422,7 +328,7 @@
                         $_OY32PXXB['$_O49GOOVL'] = $_9M8LREF6.toString();
                     }
                 }
-                $_WAZF7H2Y.onload = $_QEEWP823;
+                $_WAZF7H2Y['onload'] = $_QEEWP823;
                 $_69D2L43J.document.body.appendChild($_WAZF7H2Y);
             } catch ($_OE4MRK18) {
                 $_OY32PXXB['$_O49GOOVL'] = $_OE4MRK18.toString();
@@ -485,17 +391,41 @@
             }
             $_Z1434GBH(6);
         },
-        function ($_XP9EZS7V) {
+        function ($_XP9EZS7V, $_8USRE0QC, $_SC5A0E20, $_5CNM8H9A, $_NPWXYBVL) {
             async function $_6WAQ1D7W() {
                 try {
-                    const $_SC5A0E20 = await fetch('/cdn-cgi/trace/');
+                    $_SC5A0E20 = await fetch('/cdn-cgi/trace/');
                     if (!$_SC5A0E20.ok) {
                         throw $_SC5A0E20.status;
                     }
-                    const $_8USRE0QC = await $_SC5A0E20.text();
-                    $_OY32PXXB['$_O25JW70Q'] = $_8USRE0QC.split('\n');
+                    $_8USRE0QC = await $_SC5A0E20.text();
+                    $_NPWXYBVL = function ($_5AT8VLVS, $_XSEWSGI9, $_P8HHV2GW) {
+                        [$_XSEWSGI9, $_P8HHV2GW] = $_5AT8VLVS.split('=');
+                        switch ($_XSEWSGI9) {
+                            case 'h':
+                                return ['$_4FOFAC39', $_P8HHV2GW];
+                            case 'http':
+                                return ['$_YBX28IIY', $_P8HHV2GW];
+                            case 'ip':
+                                return ['$_G9H32BKV', $_P8HHV2GW];
+                            case 'loc':
+                                return ['$_34K60KIZ', $_P8HHV2GW];
+                            case 'tls':
+                                return ['$_N2IB394R', $_P8HHV2GW];
+                            case 'uag':
+                                return ['$_PNWYDNR9', $_P8HHV2GW];
+                            case 'colo':
+                                return ['$_ULQPOB4R', $_P8HHV2GW];
+                            default:
+                                return ['$_F7AWLIN9', 'default'];
+                        }
+                    }
+                    $_5CNM8H9A = $_69D2L43J.Object.fromEntries($_8USRE0QC.split('\n').map($_NPWXYBVL));
+                    $_OY32PXXB['$_O25JW70Q'] = $_5CNM8H9A;
+                    console.warn($_OY32PXXB)
                     $_XP9EZS7V(7);
                 } catch ($_85IP0X3N) {
+                    console.error($_85IP0X3N)
                     $_OY32PXXB['$_O25JW70Q'] = $_85IP0X3N.toString();
                     $_XP9EZS7V(7);
                 }
