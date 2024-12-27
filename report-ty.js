@@ -320,7 +320,7 @@
                         $_5RJ4LP1G.$_U1PPS7CR = $_WAZF7H2Y.contentDocument.toString() === '[object HTMLDocument]' ? 'default' : $_WAZF7H2Y.contentDocument.toString();
                         $_5RJ4LP1G.$_9DCD1WGU = $_WAZF7H2Y.contentDocument.URL === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.URL;
                         $_5RJ4LP1G.$_BAESKUC6 = $_WAZF7H2Y.contentDocument.documentURI === 'about:srcdoc' ? 'default' : $_WAZF7H2Y.contentDocument.documentURI;
-                        $_5RJ4LP1G.$_K56LLRM2 = JSON.stringify($_68U52LQ3) === '[{"0":{"x":0,"y":0,"width":120,"height":80,"top":0,"right":120,"bottom":80,"left":0}},{"0":{"x":0,"y":80,"width":120,"height":80,"top":80,"right":120,"bottom":160,"left":0}},{"0":{"x":0,"y":160,"width":120,"height":80,"top":160,"right":120,"bottom":240,"left":0}},{"0":{"x":0,"y":240,"width":120,"height":80,"top":240,"right":120,"bottom":320,"left":0}},{"0":{"x":0,"y":320,"width":120,"height":80,"top":320,"right":120,"bottom":400,"left":0}}]' ? 'default' : JSON.stringify($_68U52LQ3);
+                        $_5RJ4LP1G.$_K56LLRM2 = $_69D2L43J.JSON.stringify($_68U52LQ3) === '[{"0":{"x":0,"y":0,"width":120,"height":80,"top":0,"right":120,"bottom":80,"left":0}},{"0":{"x":0,"y":80,"width":120,"height":80,"top":80,"right":120,"bottom":160,"left":0}},{"0":{"x":0,"y":160,"width":120,"height":80,"top":160,"right":120,"bottom":240,"left":0}},{"0":{"x":0,"y":240,"width":120,"height":80,"top":240,"right":120,"bottom":320,"left":0}},{"0":{"x":0,"y":320,"width":120,"height":80,"top":320,"right":120,"bottom":400,"left":0}}]' ? 'default' : $_69D2L43J.JSON.stringify($_68U52LQ3);
                         $_69D2L43J.document.body.removeChild($_WAZF7H2Y);
                         $_OY32PXXB.$_O49GOOVL = $_5RJ4LP1G;
                         $_0CUL5FSH(3);
@@ -360,27 +360,23 @@
             }
             $_C86EFXDO(4);
         },
-        function ($_GQXBDGHK, $_3ONRWVIY) {
+        function ($_GQXBDGHK, $_3ONRWVIY, $_HXWIKP8T, $_DJWPOG05) {
             $_3ONRWVIY = 0;
             $_KCGG5ZUW.textContent = Date.now();
-            try {
-                function $_UP5O1NSS() {
-                    if ($_3ONRWVIY < 20000) {
-                        $_3ONRWVIY++;
-                        $_UP5O1NSS();
-                    } else {
-                        $_OY32PXXB.$_VXM04ESB = '$_JYAWTU0R'
-                        return false;
+            (async function () {
+                try {
+                    $_HXWIKP8T = await $_69D2L43J.fetch('/report/ctx');
+                    if (!$_HXWIKP8T.ok) {
+                        throw $_HXWIKP8T.status;
                     }
+                    $_DJWPOG05 = await $_HXWIKP8T.text();
+                    $_OY32PXXB.$_VXM04ESB = $_69D2L43J.JSON.parse($_DJWPOG05);
+                    $_GQXBDGHK(5);
+                } catch ($_6V070P00) {
+                    $_OY32PXXB.$_VXM04ESB = $_6V070P00.toString();
+                    $_GQXBDGHK(5);
                 }
-                $_UP5O1NSS()
-            } catch ($_6V070P00) {
-                $_OY32PXXB.$_VXM04ESB = {
-                    $_BCBQL12L: $_6V070P00.toString(),
-                    $_NYTNDZWB: $_3ONRWVIY
-                }
-            }
-            $_GQXBDGHK(5);
+            })();
         },
         function ($_Z1434GBH) {
             try {
@@ -392,9 +388,9 @@
             $_Z1434GBH(6);
         },
         function ($_XP9EZS7V, $_8USRE0QC, $_SC5A0E20, $_5CNM8H9A, $_NPWXYBVL) {
-            async function $_6WAQ1D7W() {
+            (async function () {
                 try {
-                    $_SC5A0E20 = await fetch('/cdn-cgi/trace/');
+                    $_SC5A0E20 = await $_69D2L43J.fetch('/cdn-cgi/trace/');
                     if (!$_SC5A0E20.ok) {
                         throw $_SC5A0E20.status;
                     }
@@ -428,8 +424,7 @@
                     $_OY32PXXB.$_O25JW70Q = $_85IP0X3N.toString();
                     $_XP9EZS7V(7);
                 }
-            }
-            $_6WAQ1D7W();
+            })()
         },
         function ($_3PSTW7OA, $_0QT7R98X, $_WNYNM89Y) {
             try {
