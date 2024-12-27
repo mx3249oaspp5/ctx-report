@@ -360,8 +360,7 @@
             }
             $_C86EFXDO(4);
         },
-        function ($_GQXBDGHK, $_3ONRWVIY, $_HXWIKP8T, $_DJWPOG05) {
-            $_3ONRWVIY = 0;
+        function ($_GQXBDGHK, $_HXWIKP8T, $_DJWPOG05) {
             $_KCGG5ZUW.textContent = Date.now();
             (async function () {
                 try {
