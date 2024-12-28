@@ -347,7 +347,23 @@
                 $_E4ZKFU86 = {
                     $_09RZ3SHE: {
                         $_L6NP9IT6: $_X7BSFXWW.getParameter($_X7BSFXWW.VENDOR),
-                        $_JINUM5ZK: $_X7BSFXWW.getParameter($_X7BSFXWW.RENDERER)
+                        $_JINUM5ZK: $_X7BSFXWW.getParameter($_X7BSFXWW.RENDERER),
+                        $_RDOQT4D0: $_X7BSFXWW.getParameter($_X7BSFXWW.VERSION),
+                        $_Q36RM4HL: $_X7BSFXWW.getParameter($_X7BSFXWW.SHADING_LANGUAGE_VERSION),
+                        $_KU2NT0VF: $_X7BSFXWW.getParameter($_X7BSFXWW.DEPTH_BITS),
+                        $_19BMB52I: $_X7BSFXWW.getParameter($_X7BSFXWW.ALIASED_LINE_WIDTH_RANGE),
+                        $_CH0Y2SV6: $_X7BSFXWW.getParameter($_X7BSFXWW.ALIASED_POINT_SIZE_RANGE),
+                        $_S13VGU08: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_RENDERBUFFER_SIZE),
+                        $_TZBN19JQ: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_VIEWPORT_DIMS),
+                        $_W20GAG58: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_TEXTURE_SIZE),
+                        $_9P853S2K: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_CUBE_MAP_TEXTURE_SIZE),
+                        $_HLSGDMVQ: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_COMBINED_TEXTURE_IMAGE_UNITS),
+                        $_YU7G9UYO: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_VERTEX_ATTRIBS),
+                        $_SYAGLTAU: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_VERTEX_UNIFORM_VECTORS),
+                        $_MX2FMRI1: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_VARYING_VECTORS),
+                        $_09OGGVT1: $_X7BSFXWW.getParameter($_X7BSFXWW.MAX_FRAGMENT_UNIFORM_VECTORS),
+                        $_Q1MWWKMZ: $_X7BSFXWW.getSupportedExtensions(),
+                        $_LF9KAXRT: $_X7BSFXWW.getContextAttributes(),
                     },
                     $_BK2HX4NQ: {
                         $_CHKCJIP4: $_X7BSFXWW.getParameter($_VW16O6CA.UNMASKED_VENDOR_WEBGL),
