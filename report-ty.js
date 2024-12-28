@@ -3,13 +3,7 @@
     console.warn('dynamic anti-context v1227a');
     console.log('page by aether - @EchoAether');
     $_OY32PXXB = {
-        $_XS5Z8VOP: 'v1227a',
-        $_VXM04ESB: 'default',
-        $_YYJFH0DL: 'default',
-        $_O49GOOVL: 'default',
-        $_EVJYYUP6: 'default',
-        $_OFRMENJO: 'default',
-        $_O25JW70Q: 'default',
+        $_XS5Z8VOP: 'v1228a'
     }
     $_UOTDZDZF = function ($_5O086IR6, $_UD01I8OD, $_GC9P37H8, $_TMBXSLFX, $_YTYW73PE, $_HP2BOUWT, $_01PNN7J8, $_JO9QQDHN, $_AV9VYQC8, $_TZEEMK6I, $_P128VKME, $_MBB4TQ0I, $_NNI2MGQE, $_E8ILRLMR, $_9TETOFCS, $_HFUS14ZR) {
         $_NNI2MGQE = Function('return this')();
@@ -279,7 +273,7 @@
                         var $_C73V7WF6 = $_E4HQ0LIC[$_CUWPV6KM];
                         $_2CZS9MVB[$_C73V7WF6[0]]($_P2L7NZEY, $_C73V7WF6) && $_P2L7NZEY.fill(), $_P2L7NZEY.shadowBlur = 0;
                     }
-                    return $_GDHM9SY3.toDataURL().slice(0, 21) === "data:image/png;base64";
+                    return $_GDHM9SY3.toDataURL();
                 };
                 $_OY32PXXB.$_OFRMENJO = $_Z3CERPMT();
             } catch ($_3UOIB8ED) {
@@ -340,8 +334,8 @@
                 $_6DVOFS69 = $_69D2L43J.document.createElement('canvas');
                 $_X7BSFXWW = $_6DVOFS69.getContext('webgl');
                 if (!$_X7BSFXWW) {
-                    $_OY32PXXB.$_EVJYYUP6 = false
-                    return false;
+                    $_OY32PXXB.$_EVJYYUP6 = false;
+                    $_C86EFXDO(4);
                 };
                 $_VW16O6CA = $_X7BSFXWW.getExtension('WEBGL_debug_renderer_info');
                 $_E4ZKFU86 = {
@@ -399,6 +393,15 @@
                 $_OY32PXXB.$_YYJFH0DL = '$_23U1E3D8';
             } catch ($_FFI03RDR) {
                 $_OY32PXXB.$_YYJFH0DL = $_FFI03RDR.message.length;
+            }
+            try {
+                $_OY32PXXB.$_S621YIUL = {
+                    $_69I5EHMY: $_69D2L43J.performance.memory.jsHeapSizeLimit,
+                    $_PHZIEUVD: $_69D2L43J.performance.memory.totalJSHeapSize,
+                    $_JF55PO2E: $_69D2L43J.performance.memory.usedJSHeapSize
+                }
+            } catch ($_24ZVCK6P) {
+                $_OY32PXXB.$_S621YIUL = $_24ZVCK6P.toString();
             }
             $_Z1434GBH(6);
         },
