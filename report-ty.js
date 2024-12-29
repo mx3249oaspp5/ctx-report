@@ -1,9 +1,9 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, $_OY32PXXB, $_UOTDZDZF, $_1Y6NZ2BD) {
     $_69D2L43J = new Function('return this')();
-    console.warn('dynamic anti-context v1227a');
+    console.warn('dynamic anti-context v1229a');
     console.log('page by aether - @EchoAether');
     $_OY32PXXB = {
-        $_XS5Z8VOP: 'v1228a'
+        $_XS5Z8VOP: 'v1229a'
     }
     $_UOTDZDZF = function ($_5O086IR6, $_UD01I8OD, $_GC9P37H8, $_TMBXSLFX, $_YTYW73PE, $_HP2BOUWT, $_01PNN7J8, $_JO9QQDHN, $_AV9VYQC8, $_TZEEMK6I, $_P128VKME, $_MBB4TQ0I, $_NNI2MGQE, $_E8ILRLMR, $_9TETOFCS, $_HFUS14ZR) {
         $_NNI2MGQE = Function('return this')();
@@ -69,7 +69,7 @@
     !function ($_3FK9EL38, $_STD0SW1M) {
         console.warn('modules by Leah - @stackmov');
         $_1Y6NZ2BD = [];
-        $_STD0SW1M = new Function('return this')();
+        $_STD0SW1M = new $_69D2L43J.Function('return this')();
         $_1Y6NZ2BD.push($_STD0SW1M.performance.now());
         function $_L1436MZQ($_269P0XZX) {
             return $_3FK9EL38[$_269P0XZX]($_L1436MZQ);
@@ -223,7 +223,7 @@
         function ($_BE6EO1HN) {
             $_KCGG5ZUW.textContent = Date.now();
             try {
-                function $_Z3CERPMT($_BWQMMRXM, $_GDHM9SY3, $_P2L7NZEY, $_E4HQ0LIC, $_E1MUBCCV, $_2CZS9MVB) {
+                (async function $_Z3CERPMT($_BWQMMRXM, $_GDHM9SY3, $_P2L7NZEY, $_E4HQ0LIC, $_E1MUBCCV, $_2CZS9MVB) {
                     $_GDHM9SY3 = $_69D2L43J.document.createElement('canvas');
                     $_GDHM9SY3.style.display = 'none';
                     $_GDHM9SY3.width = 125;
@@ -273,13 +273,25 @@
                         var $_C73V7WF6 = $_E4HQ0LIC[$_CUWPV6KM];
                         $_2CZS9MVB[$_C73V7WF6[0]]($_P2L7NZEY, $_C73V7WF6) && $_P2L7NZEY.fill(), $_P2L7NZEY.shadowBlur = 0;
                     }
-                    return $_GDHM9SY3.toDataURL();
-                };
-                $_OY32PXXB.$_OFRMENJO = $_Z3CERPMT();
+
+
+                    async function hash(_data) {
+                        const hashBuffer = await crypto.subtle.digest('SHA-256', _data);
+                        const hashArray = Array.from(new Uint8Array(hashBuffer));
+                        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+                        return hashHex;
+                    }
+
+                    const encoder = new $_69D2L43J.TextEncoder();
+                    const data = encoder.encode($_GDHM9SY3.toDataURL());
+                    const hashHex = await hash(data);
+                    $_OY32PXXB.$_OFRMENJO = hashHex;
+                    $_BE6EO1HN(2);
+                })();
             } catch ($_3UOIB8ED) {
                 $_OY32PXXB.$_OFRMENJO = $_3UOIB8ED.toString();
+                $_BE6EO1HN(2);
             }
-            $_BE6EO1HN(2);
         },
         function ($_0CUL5FSH, $_5RJ4LP1G, $_WAZF7H2Y, $_QEEWP823) {
             $_KCGG5ZUW.textContent = Date.now();
@@ -296,6 +308,10 @@
                         for ($_USBK02SH = 1; $_USBK02SH < 6; $_USBK02SH++) {
                             $_68U52LQ3.push($_WAZF7H2Y.contentDocument.getElementById('v' + $_USBK02SH).getClientRects());
                         }
+                        $_5RJ4LP1G.$_GEE6QCVW = {}
+                        $_5RJ4LP1G.$_GEE6QCVW.$_D6JXKAZ6 = $_WAZF7H2Y.contentWindow.performance.memory.jsHeapSizeLimit;
+                        $_5RJ4LP1G.$_GEE6QCVW.$_IJZFF6H3 = $_WAZF7H2Y.contentWindow.performance.memory.totalJSHeapSize;
+                        $_5RJ4LP1G.$_GEE6QCVW.$_Y6IKFJGD = $_WAZF7H2Y.contentWindow.performance.memory.usedJSHeapSize;
                         $_5RJ4LP1G.$_H55TG1OX = $_WAZF7H2Y.contentWindow.navigator.appCodeName;
                         $_5RJ4LP1G.$_MGOZK9ID = $_WAZF7H2Y.contentWindow.navigator.appName;
                         $_5RJ4LP1G.$_MLTB48E2 = $_WAZF7H2Y.contentWindow.navigator.appVersion;
