@@ -325,12 +325,13 @@
                         $_0CUL5FSH(3);
                     } catch ($_9M8LREF6) {
                         $_OY32PXXB.$_O49GOOVL = $_9M8LREF6.toString();
+                        $_0CUL5FSH(3);
                     }
                 }
                 $_WAZF7H2Y['onload'] = $_QEEWP823;
                 $_69D2L43J.document.body.appendChild($_WAZF7H2Y);
             } catch ($_OE4MRK18) {
-                $_OY32PXXB.$_O49GOOVL = $_OE4MRK18.toString();
+                $_69D2L43J.console.error($_OE4MRK18.toString())
             }
         },
         function ($_C86EFXDO, $_6DVOFS69, $_X7BSFXWW, $_VW16O6CA, $_E4ZKFU86) {
