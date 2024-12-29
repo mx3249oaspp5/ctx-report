@@ -297,10 +297,6 @@
                         for ($_USBK02SH = 1; $_USBK02SH < 6; $_USBK02SH++) {
                             $_68U52LQ3.push($_WAZF7H2Y.contentDocument.getElementById('v' + $_USBK02SH).getClientRects());
                         }
-                        $_5RJ4LP1G.$_GEE6QCVW = {}
-                        $_5RJ4LP1G.$_GEE6QCVW.$_D6JXKAZ6 = $_WAZF7H2Y.contentWindow.performance.memory.jsHeapSizeLimit;
-                        $_5RJ4LP1G.$_GEE6QCVW.$_IJZFF6H3 = $_WAZF7H2Y.contentWindow.performance.memory.totalJSHeapSize;
-                        $_5RJ4LP1G.$_GEE6QCVW.$_Y6IKFJGD = $_WAZF7H2Y.contentWindow.performance.memory.usedJSHeapSize;
                         $_5RJ4LP1G.$_H55TG1OX = $_WAZF7H2Y.contentWindow.navigator.appCodeName;
                         $_5RJ4LP1G.$_MGOZK9ID = $_WAZF7H2Y.contentWindow.navigator.appName;
                         $_5RJ4LP1G.$_MLTB48E2 = $_WAZF7H2Y.contentWindow.navigator.appVersion;
