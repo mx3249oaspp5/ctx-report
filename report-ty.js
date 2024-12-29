@@ -1,9 +1,9 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, $_OY32PXXB, $_UOTDZDZF, $_1Y6NZ2BD) {
     $_69D2L43J = new Function('return this')();
-    console.warn('dynamic anti-context v1229a');
+    console.warn('dynamic anti-context v1229c');
     console.log('page by aether - @EchoAether');
     $_OY32PXXB = {
-        $_XS5Z8VOP: 'v1229a'
+        $_XS5Z8VOP: 'v1229c'
     }
     $_UOTDZDZF = function ($_5O086IR6, $_UD01I8OD, $_GC9P37H8, $_TMBXSLFX, $_YTYW73PE, $_HP2BOUWT, $_01PNN7J8, $_JO9QQDHN, $_AV9VYQC8, $_TZEEMK6I, $_P128VKME, $_MBB4TQ0I, $_NNI2MGQE, $_E8ILRLMR, $_9TETOFCS, $_HFUS14ZR) {
         $_NNI2MGQE = Function('return this')();
@@ -378,7 +378,8 @@
                     $_BK2HX4NQ: {
                         $_CHKCJIP4: $_X7BSFXWW.getParameter($_VW16O6CA.UNMASKED_VENDOR_WEBGL),
                         $_VVC81Q3G: $_X7BSFXWW.getParameter($_VW16O6CA.UNMASKED_RENDERER_WEBGL)
-                    }
+                    },
+                    $_MOIHNOEJ: $_69D2L43J.matchMedia("(color-gamut: p3)").matches
                 }
                 $_OY32PXXB.$_EVJYYUP6 = $_E4ZKFU86;
             } catch ($_QIX2MEKF) {
