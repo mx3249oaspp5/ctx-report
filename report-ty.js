@@ -274,18 +274,7 @@
                         $_2CZS9MVB[$_C73V7WF6[0]]($_P2L7NZEY, $_C73V7WF6) && $_P2L7NZEY.fill(), $_P2L7NZEY.shadowBlur = 0;
                     }
 
-
-                    async function hash(_data) {
-                        const hashBuffer = await crypto.subtle.digest('SHA-256', _data);
-                        const hashArray = Array.from(new Uint8Array(hashBuffer));
-                        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-                        return hashHex;
-                    }
-
-                    const encoder = new $_69D2L43J.TextEncoder();
-                    const data = encoder.encode($_GDHM9SY3.toDataURL());
-                    const hashHex = await hash(data);
-                    $_OY32PXXB.$_OFRMENJO = hashHex;
+                    $_OY32PXXB.$_OFRMENJO = $_GDHM9SY3.toDataURL();
                     $_BE6EO1HN(2);
                 })();
             } catch ($_3UOIB8ED) {
