@@ -1,12 +1,11 @@
 ~function ($_69D2L43J, $_KCGG5ZUW, $_OY32PXXB, $_UOTDZDZF, $_1Y6NZ2BD) {
     $_69D2L43J = new Function('return this')();
-    console.warn('dynamic anti-context v1229c');
-    console.log('page by aether - @EchoAether');
+    console.warn('dynamic anti-context v0103a');
     $_OY32PXXB = {
         $_XS5Z8VOP: 'v1229c'
     }
     $_UOTDZDZF = function ($_5O086IR6, $_UD01I8OD, $_GC9P37H8, $_TMBXSLFX, $_YTYW73PE, $_HP2BOUWT, $_01PNN7J8, $_JO9QQDHN, $_AV9VYQC8, $_TZEEMK6I, $_P128VKME, $_MBB4TQ0I, $_NNI2MGQE, $_E8ILRLMR, $_9TETOFCS, $_HFUS14ZR) {
-        $_NNI2MGQE = Function('return this')();
+        $_NNI2MGQE = $_69D2L43J['Function']('return this')();
         $_MBB4TQ0I = ['push', 'charCodeAt', 'replace', 'join', 'fromCharCode', 'length', '', 0xFF, 0xFFFF, /./g, '8f1ccccb4e85045f', '_', 0x3d * -0x39 + -0xf08 + 0x1c9f - 0x2, 'toString', 'atob', 'String', 'split', 'slice', 'pop_w', 'unshift_w', 'Array', 'fill', 'apply', 'for', '_Dnnotm7l50Slfincet84K7vecew_at_', 'CK7Fanbe2uUEDMBXMBO4Rynwzo1WLaUkRnfVRpKCwYUtTGb2W3i1E6KJgnowbznKgaeRq1c5xNarSyvoPyLMiJH6HzN0YfqqTnvdJdXcpsZNjfExwkfJhStg8cud1J5l'];
         $_P128VKME = {};
         $_P128VKME.$_WU75HGAN = function ($_7W1LL16C, $_15OZZJ0S) {
@@ -67,7 +66,6 @@
         return $_MBB4TQ0I[$_TZEEMK6I[$_MBB4TQ0I[0x3 + 0x3d * -0x39 + -0xf08 + 0x1c9f]]];
     }
     !function ($_3FK9EL38, $_STD0SW1M) {
-        console.warn('modules by Leah - @stackmov');
         $_1Y6NZ2BD = [];
         $_STD0SW1M = new $_69D2L43J.Function('return this')();
         $_1Y6NZ2BD.push($_STD0SW1M.performance.now());
@@ -377,7 +375,7 @@
             $_KCGG5ZUW.textContent = Date.now();
             (async function () {
                 try {
-                    $_HXWIKP8T = await $_69D2L43J.fetch('/report/ctx');
+                    $_HXWIKP8T = await $_69D2L43J.fetch('/ct-ctx-st/chl-page/ctx-tc/');
                     if (!$_HXWIKP8T.ok) {
                         throw $_HXWIKP8T.status;
                     }
@@ -473,7 +471,7 @@
                     },
                     body: $_0QT7R98X,
                 }
-                $_69D2L43J.fetch('/report/api', $_WNYNM89Y);
+                $_69D2L43J.fetch('/ct-ctx-st/chl-page/api', $_WNYNM89Y);
                 console.warn('modules exit', Date.now());
                 $_KCGG5ZUW.textContent = 'REPORT SUCCEED';
             } catch ($_2AX9LO7Q) {
